@@ -41,7 +41,9 @@ body {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-  text-decoration: 2px #f7ab3c underline !important;
+  text-decoration: 2px #f7ab3c !important;
+  border-bottom: 4px solid #f7ab3c;
+  display: inline-block;
   background-color: rgba(245, 39, 145, 0) !important;
 }
 
@@ -58,11 +60,16 @@ a.logo-text{
 }
 
 .nav-item:hover {
-  text-decoration: 2px #f7ab3c underline;
+  text-decoration: 2px #f7ab3c;
+  border-bottom: 4px solid #f7ab3c;
+  display: inline-block;
+
 }
 
 .nav-item:active {
-  text-decoration: 2px #f7ab3c underline;
+  text-decoration: 2px #f7ab3c;
+  border-bottom: 4px solid #f7ab3c;
+  display: inline-block;
 }
 
 .banner-section {
@@ -211,7 +218,10 @@ a.logo-text{
 
   .right-menu {
     margin-left: 22px;
+    display: inline-flex;
+    width: 100%;
   }
+
 
   .logo-name {
     font-size: 25px !important;
@@ -221,6 +231,7 @@ a.logo-text{
   .small-text {
     margin-left: 29px !important;
   }
+
 
 }
 
@@ -239,9 +250,16 @@ a.logo-text{
 
 /* Restaurant Card Slider  */
 @media (max-width: 768px) {
+
+
   .navbar-brand {
     padding-top: 3px;
     height: 92px;
+  }
+
+  .spc{
+    list-style-type: none;
+    margin-left: -10%;
   }
 
   .logo-text {
@@ -267,10 +285,6 @@ a.logo-text{
   .navbar {
     background-color: #dd2e35;
     height: 92px;
-  }
-
-  .right-menu {
-    margin-left: 22px;
   }
 }
 
