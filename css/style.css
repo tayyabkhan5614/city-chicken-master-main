@@ -49,6 +49,9 @@ body {
   color: white !important;
   margin-left: 20px;
 }
+a.logo-text{
+  text-decoration: none;
+}
 
 .spce-items {
   margin-left: 5%;
