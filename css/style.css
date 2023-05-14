@@ -169,7 +169,7 @@ a.logo-text{
   text-decoration: none;
 }
 
-@media screen and (max-width: 1254px) {
+@media screen and (max-width: 1400px) {
   .navbar-brand {
     padding-top: 18px;
     background-color: white;
@@ -186,9 +186,9 @@ a.logo-text{
     margin-left: 3%;
   }
 
-  .right-menu {
-    margin-left: 76px;
-  }
+    .right-menu {
+      margin-left: 76px;
+    }
 }
 
 @media screen and (max-width:1148px) {
