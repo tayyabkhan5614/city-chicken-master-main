@@ -41,9 +41,9 @@ body {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-  text-decoration: 2px #f7ab3c !important;
-  border-bottom: 4px solid #f7ab3c;
-  display: inline-block;
+  text-decoration: 2px #f7ab3c;
+  text-decoration: underline #f7ab3c;
+  text-decoration-thickness: 4px;
   background-color: rgba(245, 39, 145, 0) !important;
 }
 
@@ -61,15 +61,14 @@ a.logo-text{
 
 .nav-item:hover {
   text-decoration: 2px #f7ab3c;
-  border-bottom: 4px solid #f7ab3c;
-  display: inline-block;
-
+  text-decoration: underline #f7ab3c;
+  text-decoration-thickness: 4px;
 }
 
 .nav-item:active {
   text-decoration: 2px #f7ab3c;
-  border-bottom: 4px solid #f7ab3c;
-  display: inline-block;
+  text-decoration: underline #f7ab3c;
+  text-decoration-thickness: 4px;
 }
 
 .banner-section {
